@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#654D6D</color>
+
+    <color name="colorAccent">#654D6D</color>
+    <color name="line">#727272</color>
+    <color name="grey">#8a8a8a</color>
+    <color name="recognizePicture">#52F4D6D6</color>
+    <color name="textInputLayout">#96ffffff</color>
+
+    <color name="half_black">#808080</color>
+    <color name="white">#FAFAFA</color>
+    <color name="yellow">#FFDF82</color>
+    <color name="pink">#E1FE6D67</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="rulePickerColor">#FAE40B</color>
+    <color name="chartbackgroundClolor">#00FAEECE</color><!--#E2FAEECE-->
+
+    <color name="login">#89D2DB</color>
+
+    <color name="grid">#9CBBBBBB</color>
+
+    <color name="colorPrimaryDark">#654D6D</color>
+
+    <color name="blue_fooddetail">#89D2DB</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham"
+        android:text="考  勤"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="35dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:inputType="number"
+        android:theme="@style/MyEditText"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_lock_white_24dp"
+        android:ems="10"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:drawablePadding="10dp"
+        android:hint=" 请输入密码"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:theme="@style/MyEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--android:inputType="textPassword"-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="登               录"
+        android:layout_marginTop="250px"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textSize="@dimen/ButtonTextSize"
+        android:textColor="#96ffffff"
+        android:background="@drawable/loginbtn_selector"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
